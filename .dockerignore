@@ -1,0 +1,11 @@
+# Keep the build context tiny — nothing here is needed inside the image
+.git
+.github
+__pycache__/
+*.pyc
+.pytest_cache/
+test_hello.py
+requirements.txt
+Dockerfile
+.dockerignore
+README.md

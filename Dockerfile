@@ -1,5 +1,5 @@
-# Start from a small official Python image
-FROM python:3.12-slim
+# Small official Python image (Alpine Linux based) — ~74MB vs ~177MB for -slim
+FROM python:3.12-alpine
 
 # Everything happens inside /app in the container
 WORKDIR /app
